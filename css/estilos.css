@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Raleway, sans-serif;
+  background: #141416;
+  color: #fff;
+}
+
+.contenedor {
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
+}
+
+.titulo {
+  background-color: #5a189a;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin: 60px 0 30px 0;
+}
+
+.border {
+  border: none;
+  margin-bottom: 5px;
+  border-top: 10px solid #ff007f;
+  background: none;
+  color: none;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(90deg, #ff007f, #5a189a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.formulario {
+  background: #212125;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.formulario .form-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formulario input[type="file"] {
+  font-family: Raleway, sans-serif;
+  height: 48px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 10px);
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  color: #999;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.formulario input[type="file"]:hover {
+  background-color: #ff007f;
+  border-color: #c50063;
+}
+
+.file-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.file-label:hover {
+  color: #ff007f;
+}
+
+.formulario label {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+  color: #ffffff;
+}
+
+.formulario input[type="text"],
+.formulario textarea {
+  font-family: Raleway, sans-serif;
+  width: calc(100% - 10px);
+  height: 48px;
+  margin-bottom: 15px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#texto {
+  font-family: Raleway, sans-serif;
+  width: calc(100% - 10px);
+  min-height: 80px;
+  max-height: 200px;
+  resize: vertical;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#texto:focus {
+  border-color: #ff007f;
+  outline: none;
+  box-shadow: #ff007f;
+}
+
+.submit {
+  font-family: Raleway, sans-serif;
+  background-color: #ff0080;
+  color: #141416;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit i {
+  margin-right: 8px;
+}
+
+.submit:hover {
+  background-color: #c50063;
+}
+
+  
